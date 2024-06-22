@@ -6,7 +6,9 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+      <div className="mt-5">
+        <Hero />
+      </div>
     </>
   );
 };

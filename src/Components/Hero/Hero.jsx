@@ -1,11 +1,12 @@
 import React from "react";
 import "./Hero.css";
 import imgProfile from "../../assets/IMG_6096.jpg";
+import cv from '../../assets/CV.pdf'
 
 const Hero = () => {
   return (
     <>
-      <div className="hero">
+      <div className="hero contenedor">
         <img className="hero-img" src={imgProfile} alt="" />
         <h1>
           <span>Soy Christopher Mercado,</span> Desarrollador Fullstack
@@ -18,7 +19,7 @@ const Hero = () => {
         </p>
         <div className="hero-action">
           <div className="hero-connect">Contactame</div>
-          <div className="hero-resume">Mi CV</div>
+          <div className="hero-resume"><a href={cv}>Mi CV</a></div>
         </div>
       </div>
     </>
