@@ -6,23 +6,17 @@ const Skill = () => {
   const iconFront = iconList.filter((e) => e.for === "frontend");
   const iconF = iconFront.map((e) => {
     return (
-        <>
-          <div className="icon-group">
-            <img src={e.img} alt={e.for} />
-            <p>{e.name}</p>
-          </div>
-        </>
-      );
+      <>
+          <img src={e.img} alt={e.for} />
+      </>
+    );
   });
 
   const iconBack = iconList.filter((e) => e.for === "backend");
   const iconB = iconBack.map((e) => {
     return (
       <>
-        <div className="icon-group">
           <img src={e.img} alt={e.for} />
-          <p>{e.name}</p>
-        </div>
       </>
     );
   });
@@ -31,10 +25,7 @@ const Skill = () => {
   const iconD = iconDB.map((e) => {
     return (
       <>
-        <div className="icon-group">
           <img src={e.img} alt={e.for} />
-          <p>{e.name}</p>
-        </div>
       </>
     );
   });
@@ -43,18 +34,16 @@ const Skill = () => {
   const iconO = iconOther.map((e) => {
     return (
       <>
-        <div className="icon-group">
           <img src={e.img} alt={e.for} />
-          <p>{e.name}</p>
-        </div>
       </>
     );
   });
+
   return (
     <>
-      <div className="skill content">
+      <div className="skill">
         <h1>Habilidades</h1>
-        <div className="skill-content">
+        <div className="skill-content content">
           <div className="skill-box">
             <h3>Frontend</h3>
             <div className="skill-icons" id="front">
