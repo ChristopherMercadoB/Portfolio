@@ -34,16 +34,37 @@ img {
   width: 250px;
 }
 
-span {
+.icon-large{
+    font-size: 35px;
+}
+
+.icon-large:hover{
+    
+}
+
+.connect-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.connect-group a:hover{
+    transform: scale(1.09);
+}
+
+.connect-group a{
+    transition: 0.3s;
+}
+
+.hero-action{
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
   background: linear-gradient(267deg, #66deba 0.36%, #087418 102.06%);
   -webkit-background-clip: text;
   color: transparent;
-}
-
-.hero-action {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
 }
 
 .hero-connect {
@@ -60,6 +81,7 @@ span {
   padding: 14px 18px;
   border-radius: 50px;
   cursor: pointer;
+  margin-top: 50px;
   transition: 0.3s;
 }
 

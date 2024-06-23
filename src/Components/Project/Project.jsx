@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import proyectos from '../../data/data'
 
 const Project = () => {
 
@@ -8,13 +9,9 @@ const Project = () => {
         setFrontend(!frontend)
     }
 
-   const Tecno = (tUsed, name) => {
-        return (
-            <>
-                <p className={tUsed}>{name}</p>
-            </>
-        )
-   }
+    const proyectFront = proyectos.filter(e=> e.area === 'frontend')
+    const proyectBack = proyectos.filter(e=> e.area === 'backend')
+    
   return (
     <>
     <div className="project">
