@@ -3,6 +3,7 @@ import Navbar from "./Components/NavBar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Skill from "./Components/Skill/Skill";
 import Project from "./Components/Project/Project";
+import About from "./Components/About/About";
 
 const App = () => {
   return (
@@ -10,6 +11,9 @@ const App = () => {
       <Navbar />
       <div className="mt-5">
         <Hero />
+      </div>
+      <div className="mt-10">
+        <About />
       </div>
       <div className="mt-10">
         <Skill />

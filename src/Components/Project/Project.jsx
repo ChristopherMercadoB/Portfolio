@@ -11,10 +11,10 @@ const Project = () => {
 
     const proyectFront = proyectos.filter(e=> e.area === 'frontend')
     const proyectBack = proyectos.filter(e=> e.area === 'backend')
-    
+
   return (
     <>
-    <div className="project">
+    <div className="project cont">
         <h1>Proyectos</h1>
         <button onClick={handleClick}>{frontend ? 'Backend': 'Frontend'}</button>
         <div className="project-list">

@@ -47,7 +47,7 @@ const Skill = () => {
   return (
     <>
       <div className="skill">
-        <h1 data-aos="fade-up" data-aos-duration='1000'>Habilidades</h1>
+        <h1 data-aos="fade-up" data-aos-duration='1000'><span className="span">Habilidades</span></h1>
         <div className="skill-content content">
           <div className="skill-box" data-aos="fade-up" data-aos-duration="1000">
             <h3>Frontend</h3>

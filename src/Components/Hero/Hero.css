@@ -67,17 +67,9 @@ img {
   color: transparent;
 }
 
-.hero-connect {
-  border: 1px solid black;
-  padding: 15px 18px;
-  border-radius: 50px;
-  background: linear-gradient(267deg, #8cf083 0.36%, #087418 102.06%);
-  cursor: pointer;
-  transition: 0.3s;
-}
 
 .hero-resume {
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
   padding: 14px 18px;
   border-radius: 50px;
   cursor: pointer;
@@ -85,10 +77,4 @@ img {
   transition: 0.3s;
 }
 
-.hero-resume:hover {
-  transform: scale(0.9);
-}
 
-.hero-connect:hover {
-  transform: scale(0.9);
-}

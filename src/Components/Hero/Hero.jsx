@@ -35,16 +35,24 @@ const Hero = () => {
           a aprender continuamente y adaptarme a nuevas herramientas y
           metodologías
         </p>
-        <div data-aos="fade-up" data-aos-duration="500" className="hero-action">
-          <div className="connect-group">
-            <a href="">
+        <div className="hero-action">
+          <div
+            className="connect-group"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <a href="https://github.com/ChristopherMercadoB" target="_blank" rel="noopener noreferrer">
               <i class="devicon-github-original icon-large"></i>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/christopher-mercado-8a8582310/" target="_blank" rel="noopener noreferrer">
               <i class="devicon-linkedin-plain icon-large"></i>
             </a>
           </div>
-          <div className="hero-resume">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="hero-resume"
+          >
             <a href={cv}>Ver Curriculum</a>
           </div>
         </div>
