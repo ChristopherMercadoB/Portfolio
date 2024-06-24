@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import foto from "../../assets/IMG_6096.jpg";
+import foto from "../../assets/fotoPortfolio.png";
 import "./About.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 
 const About = () => {
   useEffect(() => {

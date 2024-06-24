@@ -3,8 +3,9 @@ import biblioteca from "../assets/b1b.png";
 import portfolio from "../assets/portfolio.png";
 import gestor from "../assets/GestorPaciente.png";
 import tictac from '../assets/ttt.png'
-// import tienda from "../assets/b1b.png";
-
+import restaurant from "../assets/restaurant.jpg";
+import socialNetwork from '../assets/socialNet.png'
+import jobby from '../assets/busqueda-empleo.jpg'
 const proyectos = [
   {
     id: 1,
@@ -20,7 +21,7 @@ const proyectos = [
   {
     id: 2,
     name: "Portfolio",
-    URL: "http://localhost:5174/",
+    URL: "#inicio",
     github: "https://github.com/ChristopherMercadoB/Portfolio",
     description: "Portfolio personal",
     area: "frontend",
@@ -55,7 +56,7 @@ const proyectos = [
     github: "https://github.com/ChristopherMercadoB/SocialNetwork",
     description: `Esta mini red social está desarrollada con ASP.NET MVC y Bootstrap, permitiendo a los usuarios interactuar de manera dinámica y moderna. La plataforma ofrece funcionalidades clave para compartir y conectar con amigos a través de publicaciones de videos, fotos y comentarios.`,
     area: "backend",
-    img: tienda,
+    img: socialNetwork,
     tecnologies: ["Asp.Net", "Sqlserver", "Bootstrap"],
   },
   {
@@ -65,7 +66,7 @@ const proyectos = [
     github: "https://github.com/ChristopherMercadoB/ApiRestaurant",
     description: `Esta API para restaurantes está desarrollada con .NET y proporciona un sistema robusto para gestionar platos, órdenes, mesas e ingredientes. Cuenta con manejo de roles y seguridad mediante tokens JWT (JSON Web Tokens).`,
     area: "backend",
-    img: tienda,
+    img: restaurant,
     tecnologies: ["Asp.Net", "JWT", "EntityFramework", "Sqlserver", "Api"],
   },
   {
@@ -75,7 +76,7 @@ const proyectos = [
     github: "https://github.com/ChristopherMercadoB/Jobby",
     description: `Esta es una aplicación de búsqueda de empleo desarrollada en ASP.NET, que utiliza una arquitectura de aplicación web y una API web para proporcionar una plataforma robusta y fácil de usar tanto para buscadores de empleo como para empleadores.`,
     area: "backend",
-    img: tienda,
+    img: jobby,
     tecnologies: [
       "Asp.Net",
       "JWT",

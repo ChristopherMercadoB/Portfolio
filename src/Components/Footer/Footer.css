@@ -1,0 +1,39 @@
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container{
+    background-color: #707070;
+    padding: 30px;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-contact img{
+    max-width: 100%;
+}
+
+.footer-item{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.footer-image{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

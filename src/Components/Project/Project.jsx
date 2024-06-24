@@ -114,7 +114,7 @@ const Project = () => {
 
   return (
     <>
-      <div className="project cont">
+      <div className="project">
         <div className="button">
           <h1>Proyectos</h1>
 

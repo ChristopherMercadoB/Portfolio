@@ -1,5 +1,5 @@
 .cont {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
   line-height: 25px;
 }
@@ -7,7 +7,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .info span {
@@ -27,13 +27,12 @@
 .item-list {
   display: grid;
   grid-template-columns: 3fr 4fr;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 
 .cont img {
   height: 500px;
   width: 500px;
-  border: 2px solid white;
   border-radius: 20px;
   display: block;
   transition: 0.3s;
