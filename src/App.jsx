@@ -4,23 +4,29 @@ import Hero from "./Components/Hero/Hero";
 import Skill from "./Components/Skill/Skill";
 import Project from "./Components/Project/Project";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import ScrollToTopButton from "./Components/ScrollToTopButton/ScrollToTopButton";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div className="mt-5">
+      <div id="inicio" className="mt-5">
         <Hero />
       </div>
-      <div className="mt-10">
+      <div id="sobremi" className="mt-10">
         <About />
       </div>
-      <div className="mt-10">
+      <div id="habilidades" className="mt-10">
         <Skill />
       </div>
-      <div className="mt-10">
+      <div  id='proyectos' className="mt-10">
         <Project />
       </div>
+      <div id="contacto" className="mt-20">
+        <Contact />
+      </div>
+      <ScrollToTopButton />
     </>
   );
 };

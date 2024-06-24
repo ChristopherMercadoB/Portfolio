@@ -7,11 +7,11 @@ const Navbar = () => {
         <div className='navbar container'>
             <h1 className='logo'><a href="">Chris</a></h1>
             <ul className="nav-menu">
-                <li>Inicio</li>
-                <li>Sobre mi</li>
-                <li>Servicios</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+                 <a href="#inicio">Inicio</a>
+                 <a href="#sobremi">Sobre Mi</a>
+                 <a href="#habilidades">Habilidades</a>
+                 <a href="#proyectos">Proyectos</a>
+                 <a href="#contacto">Contacto</a>
             </ul>
             <div className="nav-connect">Contactame</div>
         </div>

@@ -41,11 +41,19 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-duration="500"
           >
-            <a href="https://github.com/ChristopherMercadoB" target="_blank" rel="noopener noreferrer">
-              <i class="devicon-github-original icon-large"></i>
+            <a
+              href="https://github.com/ChristopherMercadoB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-github-original icon-large"></i>
             </a>
-            <a href="https://www.linkedin.com/in/christopher-mercado-8a8582310/" target="_blank" rel="noopener noreferrer">
-              <i class="devicon-linkedin-plain icon-large"></i>
+            <a
+              href="https://www.linkedin.com/in/christopher-mercado-8a8582310/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-linkedin-plain icon-large"></i>
             </a>
           </div>
           <div
