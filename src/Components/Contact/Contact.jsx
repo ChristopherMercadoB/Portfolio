@@ -61,9 +61,11 @@ const Contact = () => {
                 name="message"
               ></textarea>
             </div>
+            <div className="center">
             <button className="btn color-gray" type="submit">
               Enviar
             </button>
+            </div>
           </form>
         </fieldset>
       </div>

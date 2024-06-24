@@ -32,6 +32,11 @@ textarea{
     background-color: transparent;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 .container-form fieldset{
     height: 100%;
 }

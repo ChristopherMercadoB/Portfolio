@@ -31,7 +31,7 @@ const proyectos = [
   {
     id: 3,
     name: "TIC-TAC-TOE",
-    URL: null,
+    URL: 'https://main--tictactoecm2024.netlify.app/',
     github: "https://github.com/ChristopherMercadoB/Tic-tac-toe",
     description: "Recreacion del juego tic-tac-toe con react y bootstrap",
     area: "frontend",
