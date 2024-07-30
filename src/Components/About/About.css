@@ -57,3 +57,7 @@
 .main:hover{
     transform: scale(1.04);
 }
+
+.text-center{
+  text-align: center;
+}

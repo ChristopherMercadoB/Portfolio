@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
-import imgProfile from "../../assets/IMG_6096.jpg";
+import imgProfile from "../../assets/Personal.jpg";
 import cv from "../../assets/CV.pdf";
 import Typewriter from "typewriter-effect/dist/core";
 import { useTypewriter, Cursor } from "react-simple-typewriter";

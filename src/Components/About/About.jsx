@@ -23,16 +23,15 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div className="item-list">
-            <div className="about-item">
-              <img src={foto} alt="Foto personal" />
-            </div>
+            {/* <div className="about-item">
+              {/* <img src={foto} alt="Foto personal" /> */}
+            {/* </div> */} 
             <div className="about-item info">
               <p>
                 Soy Christopher Mercado, estudiante de <span>Desarrollo de Software</span> en
                 el Instituto Tecnológico de las Américas (ITLA), y tengo una
                 sólida formación en tecnologías como C#, ASP.NET, MVC, SQL,
-                JavaScript y PHP.
+                JavaScript, React y PHP.
               </p>
               <br />
               <p>
@@ -54,7 +53,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
